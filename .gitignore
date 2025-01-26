@@ -1,14 +1,33 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Ignore everything
-*
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# But not the .gitignore file
-!.gitignore
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Or README.md
-!README.md
-
-
-# Or a specific directory (e.g., 'src')
-!src/
+### VS Code ###
+.vscode/
