@@ -1,6 +1,4 @@
 
-# Or a specific directory (e.g., 'src')
-!src/
 
 # Ignore everything
 *
@@ -10,3 +8,7 @@
 
 # Or README.md
 !README.md
+
+
+# Or a specific directory (e.g., 'src')
+!src/
