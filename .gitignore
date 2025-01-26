@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not the .gitignore file
+!.gitignore
+
+# Or README.md
+!README.md
+
+# Or a specific directory (e.g., 'src')
+!src/
