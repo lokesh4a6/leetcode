@@ -17,6 +17,8 @@ public class CollectingToMap {
 		
 		Map<String, Integer> mapedStudentList = studentList.stream().collect(Collectors.toMap(a -> a.getName(), a ->a.getAge()));
 		mapedStudentList.forEach((t, u) -> {
+			
+			
 			System.out.println("name: " + t + "\t" + " age: " + u);
 		});
 		
