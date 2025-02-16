@@ -1,5 +1,13 @@
 package designpatterns;
 
+/** 
+
+This is abstract pattern
+here we implement some methods for abstract class and
+leave extends class to implement some methods as per there needs
+use parent class Reference to execute methods  
+
+**/
 
 abstract class  Parser{
 	
